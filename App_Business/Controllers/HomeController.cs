@@ -28,10 +28,85 @@ namespace App_Business.Controllers
             return View();
         }
 
+        //public IActionResult Example()
+        //{
+        //    if (ConfigSideBar.ShowSideBar)
+        //        ConfigSideBar.ShowSideBar = false;
+        //    else
+        //        ConfigSideBar.ShowSideBar = true;
+        //    return RedirectToAction("Index");
+        //}
+
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
+
+        public IActionResult General()
+        {
+            return View();
+        }
+
+        public IActionResult Icons()
+        {
+            return View();
+        }
+
+        public IActionResult Buttons()
+        {
+            return View();
+        }
+        public IActionResult widgets()
+        {
+            return View();
+        }
+        public IActionResult sliders()
+        {
+            return View();
+        }
+  
+        public IActionResult timeline()
+        {
+            return View();
+        }
+        public IActionResult modals()
+        {
+            return View();
+        }
+        public IActionResult generalForm()
+        {
+            return View();
+        }
+        public IActionResult editors()
+        {
+            return View();
+        }
+        public IActionResult advanced()
+        {
+            return View();
+        }
+        public IActionResult simple()
+        {
+            return View();
+        }
+        public IActionResult data()
+        {
+            return View();
+        }
+        public IActionResult Calendar()
+        {
+            return View();
+        }
+        public IActionResult mailbox()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
     }
 }
